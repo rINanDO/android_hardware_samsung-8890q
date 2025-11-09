@@ -14,7 +14,7 @@
 
 cc_defaults {
     name: "livedisplay_samsung_exynos_defaults",
-    defaults: ["hidl_defaults"],
+    defaults: ["samsung_header_path_defaults"],
     relative_install_path: "hw",
     srcs: [
         "AdaptiveBacklight.cpp",
