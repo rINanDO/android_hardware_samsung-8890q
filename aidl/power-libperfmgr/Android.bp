@@ -23,6 +23,7 @@ soong_namespace {
 cc_binary {
     name: "android.hardware.power-service.samsung-libperfmgr",
     relative_install_path: "hw",
+    defaults: ["samsung_header_path_defaults"],
     init_rc: ["android.hardware.power-service.samsung-libperfmgr.rc"],
     vintf_fragments: ["android.hardware.power-service.samsung.xml"],
     vendor: true,
